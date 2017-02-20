@@ -24,8 +24,8 @@ public class TestBuscadorBinarioGenerico {
 	@Test
 	public void testBuscaValorEspecifico() {
 		Integer[] numbers = { 1, 21, 32, 43, 45, 67, 233 };
-		Integer valor = 233;
-		assertEquals((Integer) 6, BuscadorBinarioGenerico.binario(numbers, valor));
+		Integer valor = 67;
+		assertEquals((Integer) 5, BuscadorBinarioGenerico.binario(numbers, valor));
 	}
 
 }
