@@ -15,10 +15,10 @@ public class BuscadorRecursivo {
                     return media;
                 } else if (valor > numbers[media]){
                     inicio = media + 1;
-                    binario(numbers, valor, inicio, fim);
+                    return binario(numbers, valor, inicio, fim);
                 } else if (valor < numbers[media]){
                     fim = media - 1;
-                    binario(numbers, valor, inicio, fim);
+                    return binario(numbers, valor, inicio, fim);
                 }
             }
         }
